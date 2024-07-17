@@ -1,0 +1,15 @@
+model Topic {
+  id         String      @id @default(uuid())
+  name       String      @unique
+  knowledges Knowledge[]
+}
+
+model Knowledge {
+  id                 String  @id @default(uuid())
+  name               String  @unique
+  topicId            String
+  topic              Topic   @relation(fields: [topicId], references: [id])
+  expires            Boolean @default(false)
+  expirationTimeDays Int     @default(0)
+  functions FunctionKnowledge[]
+}

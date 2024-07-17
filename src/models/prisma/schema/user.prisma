@@ -1,0 +1,52 @@
+model User {
+  id             String     @id @default(uuid())
+  externalID     String     @unique
+  name           String
+  email          String     @unique
+  status         UserStatus @relation(fields: [statusId], references: [id])
+  statusId       String
+  dateRegistered DateTime   @default(now())
+  roles          UserRole[]
+}
+
+model UserStatus {
+  id          String  @id @default(uuid())
+  name        String  @unique
+  description String?
+  users       User[]
+}
+
+model Role {
+  id          String           @id @default(uuid())
+  name        String           @unique
+  description String?
+  users       UserRole[]
+  permissions RolePermission[]
+}
+
+model UserRole {
+  userId       String
+  user         User     @relation(fields: [userId], references: [id])
+  roleId       String
+  role         Role     @relation(fields: [roleId], references: [id])
+  assignedAt   DateTime @default(now())
+  assignedById String
+
+  @@id([userId, roleId])
+}
+
+model Permission {
+  id          String           @id @default(uuid())
+  name        String           @unique
+  description String?
+  roles       RolePermission[]
+}
+
+model RolePermission {
+  roleId       String
+  role         Role       @relation(fields: [roleId], references: [id])
+  permissionId String
+  permission   Permission @relation(fields: [permissionId], references: [id])
+
+  @@id([roleId, permissionId])
+}

@@ -1,12 +1,13 @@
 model User {
-  id             String     @id @default(uuid())
-  externalID     String     @unique
+  id             String         @id @default(uuid())
+  externalID     String         @unique
   name           String
-  email          String     @unique
-  status         UserStatus @relation(fields: [statusId], references: [id])
+  email          String         @unique
+  status         UserStatus     @relation(fields: [statusId], references: [id])
   statusId       String
-  dateRegistered DateTime   @default(now())
+  dateRegistered DateTime       @default(now())
   roles          UserRole[]
+  functions      UserFunction[]
 }
 
 model UserStatus {
@@ -14,6 +15,17 @@ model UserStatus {
   name        String  @unique
   description String?
   users       User[]
+}
+
+model UserFunction {
+  userId     String
+  user       User     @relation(fields: [userId], references: [id])
+  functionId String
+  function   Function @relation(fields: [functionId], references: [id])
+  assignedAt DateTime @default(now())
+  active     Boolean  @default(true)
+
+  @@id([userId, functionId])
 }
 
 model Role {

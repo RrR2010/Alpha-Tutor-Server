@@ -1,15 +1,17 @@
 model Function {
-  id   String @id @default(uuid())
-  name String @unique
-  knowledges FunctionKnowledge[]
+  id           String              @id @default(uuid())
+  name         String              @unique
+  knowledges   FunctionKnowledge[]
+  UserFunction UserFunction[]
 }
 
 model FunctionKnowledge {
-  functionId String
-  function Function @relation(fields: [functionId], references: [id])
+  functionId  String
+  function    Function  @relation(fields: [functionId], references: [id])
   knowledgeId String
-  knowledge Knowledge @relation(fields: [knowledgeId], references: [id])
+  knowledge   Knowledge @relation(fields: [knowledgeId], references: [id])
 
   obligatory Boolean @default(false)
+
   @@id([functionId, knowledgeId])
 }

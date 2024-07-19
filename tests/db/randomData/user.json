@@ -3,105 +3,105 @@
     "externalID": "EXT001",
     "name": "Alice Johnson",
     "email": "alice.johnson@example.com",
-    "statusId": "Ativo",
+    "statusName": "Ativo",
     "dateRegistered": "2023-01-15T09:00:00.000Z"
   },
   {
     "externalID": "EXT002",
     "name": "Bob Smith",
     "email": "bob.smith@example.com",
-    "statusId": "Ativo",
+    "statusName": "Ativo",
     "dateRegistered": "2023-01-16T10:00:00.000Z"
   },
   {
     "externalID": "EXT003",
     "name": "Carol Williams",
     "email": "carol.williams@example.com",
-    "statusId": "Inativo",
+    "statusName": "Inativo",
     "dateRegistered": "2023-01-17T11:00:00.000Z"
   },
   {
     "externalID": "EXT004",
     "name": "David Brown",
     "email": "david.brown@example.com",
-    "statusId": "Ativo",
+    "statusName": "Ativo",
     "dateRegistered": "2023-01-18T12:00:00.000Z"
   },
   {
     "externalID": "EXT005",
     "name": "Eva Davis",
     "email": "eva.davis@example.com",
-    "statusId": "Inativo",
+    "statusName": "Inativo",
     "dateRegistered": "2023-01-19T13:00:00.000Z"
   },
   {
     "externalID": "EXT006",
     "name": "Frank Miller",
     "email": "frank.miller@example.com",
-    "statusId": "Ativo",
+    "statusName": "Ativo",
     "dateRegistered": "2023-01-20T14:00:00.000Z"
   },
   {
     "externalID": "EXT007",
     "name": "Grace Wilson",
     "email": "grace.wilson@example.com",
-    "statusId": "Inativo",
+    "statusName": "Inativo",
     "dateRegistered": "2023-01-21T15:00:00.000Z"
   },
   {
     "externalID": "EXT008",
     "name": "Hank Moore",
     "email": "hank.moore@example.com",
-    "statusId": "Ativo",
+    "statusName": "Ativo",
     "dateRegistered": "2023-01-22T16:00:00.000Z"
   },
   {
     "externalID": "EXT009",
     "name": "Ivy Taylor",
     "email": "ivy.taylor@example.com",
-    "statusId": "Inativo",
+    "statusName": "Inativo",
     "dateRegistered": "2023-01-23T17:00:00.000Z"
   },
   {
     "externalID": "EXT010",
     "name": "Jack Anderson",
     "email": "jack.anderson@example.com",
-    "statusId": "Ativo",
+    "statusName": "Ativo",
     "dateRegistered": "2023-01-24T18:00:00.000Z"
   },
   {
     "externalID": "EXT011",
     "name": "Karen Thomas",
     "email": "karen.thomas@example.com",
-    "statusId": "Inativo",
+    "statusName": "Inativo",
     "dateRegistered": "2023-01-25T19:00:00.000Z"
   },
   {
     "externalID": "EXT012",
     "name": "Liam Jackson",
     "email": "liam.jackson@example.com",
-    "statusId": "Ativo",
+    "statusName": "Ativo",
     "dateRegistered": "2023-01-26T20:00:00.000Z"
   },
   {
     "externalID": "EXT013",
     "name": "Mia White",
     "email": "mia.white@example.com",
-    "statusId": "Inativo",
+    "statusName": "Inativo",
     "dateRegistered": "2023-01-27T21:00:00.000Z"
   },
   {
     "externalID": "EXT014",
     "name": "Noah Harris",
     "email": "noah.harris@example.com",
-    "statusId": "Ativo",
+    "statusName": "Ativo",
     "dateRegistered": "2023-01-28T22:00:00.000Z"
   },
   {
     "externalID": "EXT015",
     "name": "Olivia Martin",
     "email": "olivia.martin@example.com",
-    "statusId": "Inativo",
+    "statusName": "Inativo",
     "dateRegistered": "2023-01-29T23:00:00.000Z"
   }
 ]

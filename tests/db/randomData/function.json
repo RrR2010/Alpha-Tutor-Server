@@ -1,0 +1,44 @@
+{
+  "functions": [
+    {
+      "name": "Operador de Robô",
+      "knowledges": ["Lubrificação de Robô Paletizador", "Bloqueio e Etiquetagem", "Operação de Máquinas de Corte", "Configuração de Sensores", "Manutenção Preventiva de Motores", "Troca de Ferramentas de Máquina"]
+    },
+    {
+      "name": "Operador de Empilhadeira",
+      "knowledges": ["Aperto e Reaperto de Parafusos", "Inspeção Visual de Equipamentos", "Normas de Segurança (NR)", "Primeiros Socorros", "Uso de Equipamentos de Proteção Individual (EPI)", "Procedimentos de Evacuação"]
+    },
+    {
+      "name": "Calibração de Equipamento",
+      "knowledges": ["Calibração de Instrumentos de Medição", "Teste de Vibração em Equipamentos Rotativos", "Controle Estatístico de Processo (CEP)", "Análise de Falhas", "Verificação e Validação de Produtos"]
+    },
+    {
+      "name": "Operador de Embaladora",
+      "knowledges": ["Operação de Embaladeira", "Lubrificação de Correntes", "Aperto e Reaperto de Parafusos", "Controle de Qualidade Total (TQC)", "Auditoria Interna de Qualidade"]
+    },
+    {
+      "name": "Ajudante Geral",
+      "knowledges": ["Limpeza de Tanques", "Eliminação de Desperdícios", "Poka-Yoke", "Controle de Emissões", "Treinamento em Segurança"]
+    },
+    {
+      "name": "Técnico de Manutenção",
+      "knowledges": ["Manutenção Corretiva de Máquinas", "Análise de Causa Raiz", "Mapeamento de Fluxo de Valor", "FMEA", "Treinamento em Manutenção"]
+    },
+    {
+      "name": "Inspetor de Qualidade",
+      "knowledges": ["Controle Estatístico de Processo (CEP)", "Normas ISO", "Gestão de Não Conformidades", "Auditoria Interna de Qualidade", "Treinamento e Capacitação em Qualidade"]
+    },
+    {
+      "name": "Supervisor de Produção",
+      "knowledges": ["Kaizen", "Diagrama de Ishikawa", "Redução de Setups", "Gestão Visual", "Treinamento em Liderança"]
+    },
+    {
+      "name": "Engenheiro de Processos",
+      "knowledges": ["Análise de Pareto", "Mapeamento de Fluxo de Valor", "Controle Estatístico de Processo (CEP)", "Método PDCA", "Desenvolvimento de Protocolos de Operação"]
+    },
+    {
+      "name": "Analista de Segurança do Trabalho",
+      "knowledges": ["Normas de Segurança (NR)", "Primeiros Socorros", "Combate a Incêndios", "Ergonomia no Trabalho", "Treinamento em Segurança e Saúde Ocupacional"]
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+﻿[
+  {
+    "topic": "Produção e Manutenção Autônoma",
+    "knowledges": [
+      { "name": "Operação de Embaladeira", "expires": false, "expirationTimeDays": 0 },
+      { "name": "Limpeza de Tanques", "expires": false, "expirationTimeDays": 0 },
+      { "name": "Lubrificação de Correntes", "expires": true, "expirationTimeDays": 365 },
+      { "name": "Aperto e Reaperto de Parafusos", "expires": true, "expirationTimeDays": 180 },
+      { "name": "Operação de Máquina de Corte", "expires": false, "expirationTimeDays": 0 },
+      { "name": "Configuração de Sensores", "expires": true, "expirationTimeDays": 730 },
+      { "name": "Manutenção Preventiva de Motores", "expires": true, "expirationTimeDays": 365 },
+      { "name": "Troca de Ferramentas de Máquina", "expires": false, "expirationTimeDays": 0 },
+      { "name": "Inspeção Visual de Equipamentos", "expires": false, "expirationTimeDays": 0 },
+      { "name": "Diagnóstico de Falhas em Sistemas Pneumáticos", "expires": true, "expirationTimeDays": 365 }
+    ]
+  },
+  {
+    "topic": "Manutenção Planejada",
+    "knowledges": [
+      { "name": "Lubrificação de Robô Paletizador", "expires": true, "expirationTimeDays": 365 },
+      { "name": "Bloqueio e Etiquetagem", "expires": true, "expirationTimeDays": 730 },
+      { "name": "Planejamento de Paradas de Manutenção", "expires": false, "expirationTimeDays": 0 },
+      { "name": "Manutenção Corretiva de Máquinas", "expires": true, "expirationTimeDays": 365 },
+      { "name": "Substituição de Componentes Usados", "expires": false, "expirationTimeDays": 0 },
+      { "name": "Avaliação de Vida Útil de Equipamentos", "expires": true, "expirationTimeDays": 730 },
+      { "name": "Teste de Vibração em Equipamentos Rotativos", "expires": true, "expirationTimeDays": 365 },
+      { "name": "Calibração de Instrumentos de Medição", "expires": true, "expirationTimeDays": 180 },
+      { "name": "Inspeção de Manutenção de Estruturas", "expires": false, "expirationTimeDays": 0 },
+      { "name": "Gestão de Peças de Reposição", "expires": true, "expirationTimeDays": 365 }
+    ]
+  },
+  {
+    "topic": "Melhoria Focada",
+    "knowledges": [
+      { "name": "Análise de Causa Raiz", "expires": false, "expirationTimeDays": 0 },
+      { "name": "Kaizen", "expires": false, "expirationTimeDays": 0 },
+      { "name": "5 Porquês", "expires": false, "expirationTimeDays": 0 },
+      { "name": "Análise de Pareto", "expires": false, "expirationTimeDays": 0 },
+      { "name": "Diagrama de Ishikawa", "expires": false, "expirationTimeDays": 0 },
+      { "name": "Eliminação de Desperdícios", "expires": false, "expirationTimeDays": 0 },
+      { "name": "Poka-Yoke", "expires": false, "expirationTimeDays": 0 },
+      { "name": "Mapeamento de Fluxo de Valor", "expires": false, "expirationTimeDays": 0 },
+      { "name": "Redução de Setups", "expires": false, "expirationTimeDays": 0 },
+      { "name": "Gestão Visual", "expires": false, "expirationTimeDays": 0 }
+    ]
+  },
+  {
+    "topic": "Qualidade",
+    "knowledges": [
+      { "name": "Controle Estatístico de Processo (CEP)", "expires": false, "expirationTimeDays": 0 },
+      { "name": "Análise de Falhas", "expires": false, "expirationTimeDays": 0 },
+      { "name": "Método PDCA", "expires": false, "expirationTimeDays": 0 },
+      { "name": "FMEA", "expires": false, "expirationTimeDays": 0 },
+      { "name": "Verificação e Validação de Produtos", "expires": false, "expirationTimeDays": 0 },
+      { "name": "Controle de Qualidade Total (TQC)", "expires": false, "expirationTimeDays": 0 },
+      { "name": "Normas ISO", "expires": false, "expirationTimeDays": 0 },
+      { "name": "Gestão de Não Conformidades", "expires": false, "expirationTimeDays": 0 },
+      { "name": "Auditoria Interna de Qualidade", "expires": false, "expirationTimeDays": 0 },
+      { "name": "Treinamento e Capacitação em Qualidade", "expires": false, "expirationTimeDays": 0 }
+    ]
+  },
+  {
+    "topic": "Manutenção de Segurança, Saúde e Meio Ambiente",
+    "knowledges": [
+      { "name": "Normas de Segurança (NR)", "expires": true, "expirationTimeDays": 365 },
+      { "name": "Primeiros Socorros", "expires": true, "expirationTimeDays": 365 },
+      { "name": "Combate a Incêndios", "expires": true, "expirationTimeDays": 365 },
+      { "name": "Uso de Equipamentos de Proteção Individual (EPI)", "expires": true, "expirationTimeDays": 365 },
+      { "name": "Gestão de Resíduos", "expires": true, "expirationTimeDays": 365 },
+      { "name": "Procedimentos de Evacuação", "expires": true, "expirationTimeDays": 365 },
+      { "name": "Ergonomia no Trabalho", "expires": false, "expirationTimeDays": 0 },
+      { "name": "Monitoramento Ambiental", "expires": false, "expirationTimeDays": 0 },
+      { "name": "Controle de Emissões", "expires": false, "expirationTimeDays": 0 },
+      { "name": "Treinamento em Segurança e Saúde Ocupacional", "expires": true, "expirationTimeDays": 365 }
+    ]
+  },
+  {
+    "topic": "Educação e Treinamento",
+    "knowledges": [
+      { "name": "Treinamento de Novos Funcionários", "expires": false, "expirationTimeDays": 0 },
+      { "name": "Desenvolvimento de Habilidades Técnicas", "expires": false, "expirationTimeDays": 0 },
+      { "name": "Treinamento em Liderança", "expires": false, "expirationTimeDays": 0 },
+      { "name": "Capacitação em TPM", "expires": false, "expirationTimeDays": 0 },
+      { "name": "Formação em Ferramentas da Qualidade", "expires": false, "expirationTimeDays": 0 },
+      { "name": "Educação Continuada", "expires": false, "expirationTimeDays": 0 },
+      { "name": "Treinamento em Segurança", "expires": true, "expirationTimeDays": 365 },
+      { "name": "Treinamento em Manutenção", "expires": false, "expirationTimeDays": 0 },
+      { "name": "Treinamento em Operação de Máquinas", "expires": false, "expirationTimeDays": 0 },
+      { "name": "Desenvolvimento de Competências Comportamentais", "expires": false, "expirationTimeDays": 0 }
+    ]
+  },
+  {
+    "topic": "Gestão Inicial de Equipamentos",
+    "knowledges": [
+      { "name": "Instalação de Novos Equipamentos", "expires": false, "expirationTimeDays": 0 },
+      { "name": "Comissionamento de Equipamentos", "expires": false, "expirationTimeDays": 0 },
+      { "name": "Capacitação em Novas Tecnologias", "expires": false, "expirationTimeDays": 0 },
+      { "name": "Planejamento de Instalação de Máquinas", "expires": false, "expirationTimeDays": 0 },
+      { "name": "Treinamento em Equipamentos de Alta Tecnologia", "expires": false, "expirationTimeDays": 0 },
+      { "name": "Desenvolvimento de Protocolos de Operação", "expires": false, "expirationTimeDays": 0 },
+      { "name": "Avaliação de Riscos em Novas Instalações", "expires": false, "expirationTimeDays": 0 },
+      { "name": "Gestão de Projetos de Equipamentos", "expires": false, "expirationTimeDays": 0 },
+      { "name": "Teste e Validação de Equipamentos", "expires": false, "expirationTimeDays": 0 },
+      { "name": "Documentação de Instalação", "expires": false, "expirationTimeDays": 0 }
+    ]
+  }
+]

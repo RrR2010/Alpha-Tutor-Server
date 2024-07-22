@@ -1,0 +1,178 @@
+{
+  "userFunctions": [
+    {
+      "user": "Alice Johnson",
+      "function": "Operador de Robô",
+      "assignedAt": "2024-01-15T08:30:00Z",
+      "active": true
+    },
+    {
+      "user": "Alice Johnson",
+      "function": "Operador de Empilhadeira",
+      "assignedAt": "2024-03-12T09:00:00Z",
+      "active": false
+    },
+    {
+      "user": "Bob Smith",
+      "function": "Calibração de Equipamento",
+      "assignedAt": "2024-02-20T10:15:00Z",
+      "active": true
+    },
+    {
+      "user": "Bob Smith",
+      "function": "Técnico de Manutenção",
+      "assignedAt": "2024-04-10T11:45:00Z",
+      "active": true
+    },
+    {
+      "user": "Carol Williams",
+      "function": "Operador de Embaladora",
+      "assignedAt": "2024-01-05T14:30:00Z",
+      "active": true
+    },
+    {
+      "user": "Carol Williams",
+      "function": "Inspetor de Qualidade",
+      "assignedAt": "2024-05-22T13:20:00Z",
+      "active": true
+    },
+    {
+      "user": "David Brown",
+      "function": "Ajudante Geral",
+      "assignedAt": "2024-03-01T07:45:00Z",
+      "active": false
+    },
+    {
+      "user": "David Brown",
+      "function": "Analista de Segurança do Trabalho",
+      "assignedAt": "2024-06-15T09:10:00Z",
+      "active": true
+    },
+    {
+      "user": "Eva Davis",
+      "function": "Supervisor de Produção",
+      "assignedAt": "2024-01-28T16:00:00Z",
+      "active": true
+    },
+    {
+      "user": "Eva Davis",
+      "function": "Operador de Robô",
+      "assignedAt": "2024-02-14T15:45:00Z",
+      "active": false
+    },
+    {
+      "user": "Frank Miller",
+      "function": "Engenheiro de Processos",
+      "assignedAt": "2024-03-05T10:50:00Z",
+      "active": true
+    },
+    {
+      "user": "Grace Wilson",
+      "function": "Inspetor de Qualidade",
+      "assignedAt": "2024-02-16T11:20:00Z",
+      "active": true
+    },
+    {
+      "user": "Grace Wilson",
+      "function": "Operador de Embaladora",
+      "assignedAt": "2024-05-10T08:40:00Z",
+      "active": false
+    },
+    {
+      "user": "Hank Moore",
+      "function": "Técnico de Manutenção",
+      "assignedAt": "2024-04-18T12:30:00Z",
+      "active": true
+    },
+    {
+      "user": "Hank Moore",
+      "function": "Operador de Empilhadeira",
+      "assignedAt": "2024-06-05T09:30:00Z",
+      "active": true
+    },
+    {
+      "user": "Ivy Taylor",
+      "function": "Calibração de Equipamento",
+      "assignedAt": "2024-01-21T08:50:00Z",
+      "active": true
+    },
+    {
+      "user": "Ivy Taylor",
+      "function": "Inspetor de Qualidade",
+      "assignedAt": "2024-04-15T10:00:00Z",
+      "active": false
+    },
+    {
+      "user": "Jack Anderson",
+      "function": "Operador de Robô",
+      "assignedAt": "2024-03-02T14:10:00Z",
+      "active": true
+    },
+    {
+      "user": "Jack Anderson",
+      "function": "Analista de Segurança do Trabalho",
+      "assignedAt": "2024-05-20T08:55:00Z",
+      "active": true
+    },
+    {
+      "user": "Jack Anderson",
+      "function": "Ajudante Geral",
+      "assignedAt": "2024-01-30T11:35:00Z",
+      "active": false
+    },
+    {
+      "user": "Jack Anderson",
+      "function": "Técnico de Manutenção",
+      "assignedAt": "2024-02-25T12:45:00Z",
+      "active": true
+    },
+    {
+      "user": "Kevin Thomas",
+      "function": "Supervisor de Produção",
+      "assignedAt": "2024-03-10T07:55:00Z",
+      "active": true
+    },
+    {
+      "user": "Kevin Thomas",
+      "function": "Engenheiro de Processos",
+      "assignedAt": "2024-04-12T09:20:00Z",
+      "active": false
+    },
+    {
+      "user": "Liam Jackson",
+      "function": "Calibração de Equipamento",
+      "assignedAt": "2024-01-17T14:45:00Z",
+      "active": true
+    },
+    {
+      "user": "Liam Jackson",
+      "function": "Operador de Empilhadeira",
+      "assignedAt": "2024-03-28T10:35:00Z",
+      "active": false
+    },
+    {
+      "user": "Liam Jackson",
+      "function": "Operador de Embaladora",
+      "assignedAt": "2024-05-30T13:10:00Z",
+      "active": true
+    },
+    {
+      "user": "Mia Martinez",
+      "function": "Inspetor de Qualidade",
+      "assignedAt": "2024-02-22T09:50:00Z",
+      "active": true
+    },
+    {
+      "user": "Mia Martinez",
+      "function": "Supervisor de Produção",
+      "assignedAt": "2024-04-05T12:00:00Z",
+      "active": true
+    },
+    {
+      "user": "Mia Martinez",
+      "function": "Técnico de Manutenção",
+      "assignedAt": "2024-01-12T11:10:00Z",
+      "active": false
+    }
+  ]
+}

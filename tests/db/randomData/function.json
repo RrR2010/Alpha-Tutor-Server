@@ -1,44 +1,49 @@
-{
-  "functions": [
-    {
-      "name": "Operador de Robô",
-      "knowledges": ["Lubrificação de Robô Paletizador", "Bloqueio e Etiquetagem", "Operação de Máquinas de Corte", "Configuração de Sensores", "Manutenção Preventiva de Motores", "Troca de Ferramentas de Máquina"]
-    },
-    {
-      "name": "Operador de Empilhadeira",
-      "knowledges": ["Aperto e Reaperto de Parafusos", "Inspeção Visual de Equipamentos", "Normas de Segurança (NR)", "Primeiros Socorros", "Uso de Equipamentos de Proteção Individual (EPI)", "Procedimentos de Evacuação"]
-    },
-    {
-      "name": "Calibração de Equipamento",
-      "knowledges": ["Calibração de Instrumentos de Medição", "Teste de Vibração em Equipamentos Rotativos", "Controle Estatístico de Processo (CEP)", "Análise de Falhas", "Verificação e Validação de Produtos"]
-    },
-    {
-      "name": "Operador de Embaladora",
-      "knowledges": ["Operação de Embaladeira", "Lubrificação de Correntes", "Aperto e Reaperto de Parafusos", "Controle de Qualidade Total (TQC)", "Auditoria Interna de Qualidade"]
-    },
-    {
-      "name": "Ajudante Geral",
-      "knowledges": ["Limpeza de Tanques", "Eliminação de Desperdícios", "Poka-Yoke", "Controle de Emissões", "Treinamento em Segurança"]
-    },
-    {
-      "name": "Técnico de Manutenção",
-      "knowledges": ["Manutenção Corretiva de Máquinas", "Análise de Causa Raiz", "Mapeamento de Fluxo de Valor", "FMEA", "Treinamento em Manutenção"]
-    },
-    {
-      "name": "Inspetor de Qualidade",
-      "knowledges": ["Controle Estatístico de Processo (CEP)", "Normas ISO", "Gestão de Não Conformidades", "Auditoria Interna de Qualidade", "Treinamento e Capacitação em Qualidade"]
-    },
-    {
-      "name": "Supervisor de Produção",
-      "knowledges": ["Kaizen", "Diagrama de Ishikawa", "Redução de Setups", "Gestão Visual", "Treinamento em Liderança"]
-    },
-    {
-      "name": "Engenheiro de Processos",
-      "knowledges": ["Análise de Pareto", "Mapeamento de Fluxo de Valor", "Controle Estatístico de Processo (CEP)", "Método PDCA", "Desenvolvimento de Protocolos de Operação"]
-    },
-    {
-      "name": "Analista de Segurança do Trabalho",
-      "knowledges": ["Normas de Segurança (NR)", "Primeiros Socorros", "Combate a Incêndios", "Ergonomia no Trabalho", "Treinamento em Segurança e Saúde Ocupacional"]
-    }
-  ]
-}
+[
+  {
+    "function": "Operador de embrulhadeira EK1",
+    "knowledges": ["Passo 04 da embrulhadeira EK1", "Operação da embrulhadeira EK1", "Lubrificação da embrulhadeira EK1", "Padrão de produtos BT"]
+  },
+  {
+    "function": "Operador de embrulhadeira EK2",
+    "knowledges": ["Operação da embrulhadeira EK2", "Lubrificação da embrulhadeira EK2", "Padrão de produtos Bolitas"]
+  },
+  {"function": "Operador de embrulhadeira EK3", "knowledges": ["Operação da embrulhadeira EK3", "Lubrificação da embrulhadeira EK3", "Padrão de produtos BT"]},
+  {
+    "function": "Operador de embrulhadeira EW",
+    "knowledges": ["Operação da embrulhadeira EW", "Lubrificação da embrulhadeira EW", "Padrão de produtos Pirulitos"]
+  },
+  {"function": "Auxiliar de ponta de linha", "knowledges": ["Paletização em ponta de linha"]},
+  {"function": "Transportador de paletes da fábrica", "knowledges": ["Operação da transpaleteira manual"]},
+  {"function": "Auxiliar de escolha", "knowledges": ["Processo de escolha"]},
+  {
+    "function": "Preparador de recheio de Pirulitos",
+    "knowledges": ["Operação da mescladora", "Operação da extrusora de recheios", "Lançamento de parâmetros de processo no SPAC"]
+  },
+  {"function": "Preparador de recheio de BTs", "knowledges": ["Operação do preparo de recheio de BTs", "Lançamento de parâmetros de processo no SPAC"]},
+  {
+    "function": "Preparador de calda de BTs",
+    "knowledges": ["Operação do Coolmix da BT2", "Operação do Coolmix da BT6", "Lançamento de parâmetros de processo no SPAC"]
+  },
+  {
+    "function": "Preparador de calda de Balas Duras e Pirulitos",
+    "knowledges": ["Operação do Coolmix da Bala Dura", "Operação do Coolmix da 7 Belo", "Lançamento de parâmetros de processo no SPAC"]
+  },
+  {
+    "function": "Operador de depósito de BTs",
+    "knowledges": ["Operação do depósito da BT2", "Operação do depósito da BT6", "Realização do processo CIP", "Lançamento de parâmetros de processo no SPAC"]
+  },
+  {"function": "Operador de estampadora de Balas Duras e Pirulitos", "knowledges": ["Operação do estampo", "Lançamento de parâmetros de processo no SPAC"]},
+  {"function": "Operador de cozinhador de Balas Duras e Pirulitos", "knowledges": ["Operação do estampo", "Lançamento de parâmetros de processo no SPAC"]},
+  {
+    "function": "Operador de cozinhador de Balas Mastigáveis",
+    "knowledges": ["Operação da cozinha de Balas Mastigáveis", "Lançamento de parâmetros de processo no SPAC"]
+  },
+  {"function": "Operador de Intruder", "knowledges": ["Operação do Intruder"]},
+  {"function": "Operador de Fabrima", "knowledges": ["Operação da Fabrima", "Setup da Fabrima"]},
+  {"function": "Operador de Ishida", "knowledges": ["Operação da Ishida", "Setup da Ishida"]},
+  {"function": "Operador de Masipack", "knowledges": ["Operação da Masipack", "Setup da Masipack"]},
+  {"function": "Operador de mescladora", "knowledges": ["Operação da mescladora", "Lançamento de parâmetros de processo no SPAC"]},
+  {"function": "Operador de troqueladora Togum", "knowledges": ["Operação da troqueladora Togum", "Lançamento de parâmetros de processo no SPAC"]},
+  {"function": "Operador de troqueladora Bosch", "knowledges": ["Operação da troqueladora Bosch", "Lançamento de parâmetros de processo no SPAC"]},
+  {"function": "Operador de estampadora de Chicle", "knowledges": ["Operação do estampo", "Lançamento de parâmetros de processo no SPAC"]}
+]

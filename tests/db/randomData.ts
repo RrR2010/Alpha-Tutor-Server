@@ -1,5 +1,6 @@
 import { PrismaClient } from '@prisma/client'
 import userJson from './randomData/user.json'
+import knowledgeJson from './randomData/knowledge.json'
 
 const prisma = new PrismaClient()
 
@@ -25,3 +26,5 @@ export async function importUsers() {
     })
   })
 }
+
+export async function importKnowledge() {}

@@ -26,6 +26,9 @@ export async function main() {
   })
 
   await importUsers()
+
+  const activeStatusQuery = await prisma.userStatus.findFirst({ where: { name: 'Ativo' }, include: { users: true } })
+  console.log(activeStatusQuery)
 }
 
 main()
